@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CS Desarrollo web Full</title>
+    </head>
+<body>
+    <!-- Seccion inicio-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                <h1><span>{</span>CS<span>}</span></h1>
+                <nav id="nav" class="">
+                    <ul id="links">
+                        <li><a href="#inicio" class="seleccionado" onclick="seleccion(this)">INICIO</a></li>
+                        <li><a href="#sobremi" onclick="seleccion(this)">SOBRE MI</a></li>
+                        <li><a href="#servicios" onclick="seleccion(this)">HERRAMIENTAS</a></li>
+                        <li><a href="#mistrabajos" onclick="seleccion(this)">MIS TRABAJOS</a></li>
+                        <li><a href="#contact" onclick="seleccion(this)">CONTACTO</a></li>
+                    </ul>
+                </nav>
+
+                <!--iconos barra menu responsive -->
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <!-- iconos redes sociales -->
+                <div id="redes" class="redes">
+                    <a href="https://www.facebook.com/profile.php?id=100081192534283"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://mobile.twitter.com/clst_sandoval"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B543795015135&text=Hola%2C+Soy+Celeste+Sandoval.+Hablemos%21&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.youtube.com/@celestesandoval6626"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            </header>
+            <div class="presentacion">
+                <p href="" class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Celeste Sandoval</span>, Desarrolladora web Full Stack</h2>
+                <p class="descripcion">Te invito a conocerme más!</p>
+                <a href="#mistrabajos">Conocer mis trabajos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Sobre mi-->
+    <section id="sobremi">
+        <div class="foto-presentacion">
+            <img src="./img/Picsart_Cs.jpg" alt="Foto Presentacion">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-sobremi">Sobre mi</p>
+            <h2>Hola soy <span>Celeste Sandoval</span></h2>
+            <h3>Estudiante de Lincenciatura en Sistemas de Informacion  y Desarrolladora Web Full Stack</h3>
+            <p>Actualmente estudio la carrera de <em>Lincenciatura  en Sistemas de Información, en la Facultad de Ciencias Exactas y Naturales y Agrimensura de la Universidad Nacional del Nordeste, en Corrientes Argentina.</em> Así mismo me encuentro culminando mi segundo encuentro de <b>Codo a Codo 4.0</b>,
+                 realizando, en ésta oportunidad, un curso para el desarrollo web full stack con react js. Son cursos de capacitación en el area de la programación impartidos por el <b>Gobierno de Buenos Aires.</b></p>
+            <p>Me considero una persona muy bien predispuesta al aprendizaje y la obtenció e intercambio de nuevos conocimientos.</p>
+            <p>Me dedico a colaborar en proyectos de desarrollo Web Full Stack de manera freelance. En la sección <b>MIS TRABAJOS</b>, vas a poder ver algunos de mis proyectos que tienen que ver con el desarrollo de software web y de escritorio, así como tambien las diferentes herramientas y tecnologías utilizadas en los mismos.</p>
+            <p>En la sección <b>HERRAMIENTAS</b> vas a poder todo lo relacionado con herramientas que utilizo y que tienen que ver contecnologías de Información aplicadas a tareas administrativas y/o gestión para las organizaciones.</p>
+            <a href="https://drive.google.com/file/d/1eBQaiClvrjYx34YU_OWX-2KmdENJNsFQ/view?usp=share_link">Ver mi CV</a>
+        </div>
+    </section>
+
+    <!-- Seccion servicios-->
+    <section id="servicios">
+        <h3 class="titulo-servicio">HERRAMIENTAS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-word"></i></span>
+                <h4>Officce-Word</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Redacción-</li>
+                    <li>Informes-</li>
+                    <li>Notas</li>
+                </ul>
+                <p>Redacción de Documentos con formatos específicos, inserción de formas, tablas, imagenes,etc. Manejo de formato de impresión.
+                     Guardado en diferentes formatos de archivos. Uso de plantillas</p>
+            </div>  
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-excel"></i></i></span>
+                <h4>Officce-Excel</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Libros-</li>
+                    <li>Hojas-</li>
+                    <li>Páginas-</li>
+                    <li>Tablas-</li>
+                    <li>Gráficos</li>
+                </ul>
+                <p>Diseño y confección de tablas, tablas dinámicas. Macros. Gráficos asociados a los datos. Filtrado, busqueda, ordenamiento de datos. 
+                    Uso de formulas.</p>
+                    
+            </div> 
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-powerpoint"></i></span>
+                <h4>Officce-PowerPoint</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Plantillas-</li>
+                    <li>Animaciones-</li>
+                    <li>Diaspositivas</li>
+                </ul>
+                <p>Uso de plantillas predefinidas, Diseño confección de presentaciones, Animaciones, Grabación de pantalla,
+                     Elementos incrustrados (imagenes, audio, video) </p>
+            </div> 
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Officce-Access</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bases de Datos</li>
+                </ul>
+                <p>Creación, modificación, consulta. Importar, exportar. Administración de Bases de Datos en general.</p>
+            </div>  
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-landmark"></i></span>
+                <h4>Tango Gestion-Aplicación de gestion Comercial</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Módulos-</li>
+                    <li>Carga de datos-</li>
+                    <li>Informes</li>
+                </ul>
+                <p>Módulos: Ventas, compras, stock, proveedores, fondos, sueldos, control de horarios, contabilidad, cash flow.</p>
+            </div> 
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                <h4>Edición de Imagenes</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Paint-</li>
+                    <li>PicsArt-</li>
+                    <li>PhotoShop</li>
+                </ul>
+                <p>Edición de imagenes, creación de logos, etc.</p>
+            </div> 
+        </div>
+    </section>
+
+     <!-- Seccion habilidades-->
+     <div class="contenedor-habilidades" id="habilidades">
+         <h3>HABILIDADES</h3>
+         <div class="habilidad">
+             <div class="info">
+                 <p><span class="lista"></span>Html & Css</p>
+                 <span class="porcentaje">95%</span>
+             </div>
+             <div class="barra">
+                 <div id="html" class="progreso1"></div>
+             </div>
+         </div>
+
+         <div class="habilidad">
+            <div class="info">
+                <p><span class="lista"></span>Java Script</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="progreso2"></div>
+            </div>
+        </div>
+
+        <div class="habilidad">
+            <div class="info">
+                <p><span class="lista"></span>Base de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="progreso3"></div>
+            </div>
+        </div>
+
+        <div class="habilidad">
+            <div class="info">
+                <p><span class="lista"></span>GitHub</p>
+                <span class="porcentaje">92%</span>
+            </div>
+            <div class="barra">
+                <div id="git" class="progreso4"></div>
+            </div>
+        </div>
+     </div>
+
+      <!-- Seccion Mis trabajos-->
+      <section id="mistrabajos">
+          <h3 class="titulo-trabajos">MIS TRABAJOS</h3>
+          <div class="fila">
+              <div class="trabajo">
+                  <div class="overlay"></div>
+                      <a href="https://drive.google.com/file/d/12t1eXkDY0o4h7ACF1DA-R0agmEfRv3lS/view?usp=share_link"><img src="/img/Paper.jpg" alt="Analizador sintáctico"></a>
+                      <div class="info">
+                          <h4>Paper Científico-(Documento PDF)</h4>
+                          <p>Proyecto de investigación-lenguajes formales para el análisis sintáctico.</p>
+                      </div>
+              </div>
+              <div class="trabajo">
+                <div class="overlay"></div>
+                    <a href="https://docs.google.com/presentation/d/1fjyibhZC3OuJNeExhOl31UAm0gYEXCYu/edit?usp=share_link&ouid=115333711093002419753&rtpof=true&sd=true"><img src="/img/Power.jpg" alt="PowerPoint"></a>
+                    <div class="info">
+                        <h4>Analizador Sintáctico-(Documento PowerPoint)</h4>
+                        <p>Presentación de Diaspositivas</p>
+                    </div>
+            </div>
+           <div class="trabajo">
+                <div class="overlay"></div>
+                   <a href="https://youtu.be/CO2lQjF3wCY"><img src="/img/App.jpg" alt=""></a>
+                     <div class="info">
+                       <h4>App-Java</h4>
+                        <p>App .jar para el análisis de formulas bien formadas y calculadora con NetBeans</p>
+                    </div>
+            </div>
+          </div>
+          <div class="fila">
+            <div class="trabajo">
+                <div class="overlay"></div>
+                    <img src="/img/inicio.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripcion del trabajo</h4>
+                        <p>Diseño Web</p>
+                    </div>
+            </div>
+            <div class="trabajo">
+              <div class="overlay"></div>
+                  <img src="/img/inicio.jpg" alt="">
+                  <div class="info">
+                      <h4>Descripcion del trabajo</h4>
+                      <p>Diseño Web</p>
+                  </div>
+          </div>
+          <div class="trabajo">
+              <div class="overlay"></div>
+                  <img src="/img/inicio.jpg" alt="">
+                  <div class="info">
+                      <h4>Descripcion del trabajo</h4>
+                      <p>Diseño Web</p>
+                  </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- Seccion Mis contacto-->
+        <section id="contact">
+            <h3 class="titulo-seccion">Enviame tu Mensaje</h3>
+            <div class="container-form">
+                <form action="https://formsubmit.co/c313369@gmail.com" method="post">
+                    <div class="fila-mitad">
+                        <input type="text" placeholder="Nombres" class="input-mitad" name="nombres">
+                        <input type="text" placeholder="Apellido" class="input-mitad" name="apellido">
+                    </div> 
+                    <div class="fila">
+                        <input type="email" placeholder="Correo Electronico" class="input-full" name="apellido">
+                    </div>
+                    <div class="fila">
+                        <input type="text" placeholder="Tema..." class="input-full" name="tema">
+                    </div>
+                    <div class="fila">
+                        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
+        </section>
+
+    <!-- Seccion Footer-->
+    <footer>
+        <p> &copy; Id Card Celeste Sandoval 2022</p>
+        <div id="redes">
+            <a href="https://www.facebook.com/profile.php?id=100081192534283"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://mobile.twitter.com/clst_sandoval"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=%2B543795015135&text=Hola%2C+Soy+Celeste+Sandoval.+Hablemos%21&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.youtube.com/@celestesandoval6626"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+<script src="./js/script.js"></script>
+</body>
+</html>
